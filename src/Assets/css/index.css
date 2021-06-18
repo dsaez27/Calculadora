@@ -115,12 +115,12 @@ hr {
     font-family: Acumin-pro-thin;
 }
 
-.f-30 {
-    font-size: 35px;
+.f-40 {
+    font-size: 40px;
 }
 
-.f-18 {
-    font-size: 20px;
+.f-25 {
+    font-size: 25px;
 }
 
 .grid-container-active {
@@ -262,7 +262,7 @@ hr {
 }
 
 .sun-moon {
-    background-image: url('../Image/sun.png');
+    background-image: url('../image/sun.png');
     border-radius: 50%;
     display: inline-block;
     height: 2rem;
