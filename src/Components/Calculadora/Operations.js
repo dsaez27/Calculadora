@@ -18,7 +18,7 @@ export const Operations = ({ operation, result }) => {
                     </div>
                 );
             })}
-            <button onClick={result} value="=" className="c-red-light t">
+            <button onClick={result} value="=" className="c-red-light">
                 =
             </button>
         </div>
