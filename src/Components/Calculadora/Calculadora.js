@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Digits } from 'Components/Calculadora/Digits';
 import { Modifier } from 'Components/Calculadora/Modifier';
 import { Operations } from 'Components/Calculadora/Operations';
-import { ButtonToggle } from 'Components/Calculadora/ButtonToggle'
+import { ButtonToggle } from 'Components/Calculadora/ButtonToggle';
 
 export const Calculadora = () => {
     /* eslint no-eval: 0 */
@@ -16,12 +16,15 @@ export const Calculadora = () => {
     const c = () => {
         setInput(input.substr(0, input.length - 1));
     };
+
     const ca = () => {
         setInput('');
     };
+
     const operation = (e) => {
         setInput(input + e.target.value);
     };
+
     const result = () => {
         try {
             setInput(

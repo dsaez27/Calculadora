@@ -262,7 +262,7 @@ hr {
 }
 
 .sun-moon {
-    background-image: url('../image/sun.png');
+    background-image: url('../images/sun.png');
     border-radius: 50%;
     display: inline-block;
     height: 2rem;
@@ -277,7 +277,7 @@ hr {
 /* Transition to Sun */
 
 .switch input:checked ~ .sun-moon {
-    background-image: url('../Image/moon.png');
+    background-image: url('../images/moon.png');
     left: calc(100% - 5rem);
     transform: rotate(360deg);
 }

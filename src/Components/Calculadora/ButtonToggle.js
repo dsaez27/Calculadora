@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const ButtonToggle = ({ onChange }) => {
     return (
@@ -23,3 +24,7 @@ export const ButtonToggle = ({ onChange }) => {
         </>
     );
 };
+
+ButtonToggle.propTypes = {
+    onChange: PropTypes.func.isRequired,
+}

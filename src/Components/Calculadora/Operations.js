@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Operations = ({ operation, result }) => {
     const operator = ['+', '-', '*', '/'];
@@ -24,3 +25,8 @@ export const Operations = ({ operation, result }) => {
         </div>
     );
 };
+
+Operations.propTypes = {
+    operation: PropTypes.func.isRequired,
+    result: PropTypes.func.isRequired,
+}
